@@ -1,0 +1,8 @@
+/* css styling for my page  */
+img {
+  width: 200px;
+  float: right;
+  display: inline-block;
+  clear: both;
+  margin-left: 500px;
+}

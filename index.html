@@ -4,8 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Julian's Portfolio</title>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <style type="text/css">
+      section {
+        display: none;
+      }
+      :target {
+        display: block;
+      }
+      .rbuttons {
+        float: right;
+        clear: both;
+      }
+      span {
+        font-size: xx-large;
+      }
+    </style>
   </head>
   <body>
-    <h1>Julian Bias</h1>
+    <nav style="background-color: rgb(103, 71, 117)">
+      <span><a href="index.html">Julian Bias</a></span>
+      <div class="rbuttons">
+        <span><a href="index.html">Home</a></span>
+        <span><a href="about.html">About</a></span>
+        <span><a href="portfolio.html">Portfolio</a></span>
+      </div>
+    </nav>
+    <section id="about">Who is Julian?</section>
+    <section id="portfolio">Projects I am working on.</section>
+
+    <h1>Entry Level Developer</h1>
+    <p>
+      Here is where i will soon put my goals and aspirations for my career as a
+      web developer
+    </p>
+    <img
+      src="https://ca.slack-edge.com/E05LYDFST6K-U07BVF4QRL0-c41ca261da4a-512"
+      alt="pic"
+    />
   </body>
 </html>
