@@ -1,8 +1,27 @@
 /* css styling for my page  */
-img {
+
+/*added new styling in page(remember to grab and move)
+
+/* img {
   width: 200px;
   float: right;
   display: inline-block;
   clear: both;
   margin-left: 500px;
+} */
+
+@media only screen and (max-width: 1050px) {
+  body {
+    background-color: antiquewhite;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: coral;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: darkgrey;
+  }
 }
